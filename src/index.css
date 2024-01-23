@@ -7,12 +7,12 @@
 
 .container {
   width: 100vw;
-  background: #ced8ff;
+  background: linear-gradient(to bottom right, #1c45e7, #ced8ff, #1c45e7);
   transition: 0.5s;
 }
 
 .container.dark {
-  background: #222;
+  background: linear-gradient(to bottom right, #302f2f, #000);
 }
 
 /*  */
@@ -31,14 +31,15 @@
 }
 
 body {
-  background: #0f2862;
+  background: #0f1114;
 }
 
 .containerCode {
   width: 100%;
-  height: 100vh;
-  padding: 20px;
+  height: 80vh;
+  padding: 50px;
   display: flex;
+  margin-top: -1%;
 }
 
 .left , .right {
@@ -60,7 +61,7 @@ textarea {
 
 iframe {
   width: 100%;
-  height: 95%;
+  height: 98%;
   background: #e1e8f0;
   border: 0;
   outline: 0;
@@ -70,6 +71,7 @@ iframe {
 label i{
   margin-right: 10px;
   margin-left: 10px;
+  color: white;
 }
 
 label {
@@ -80,3 +82,10 @@ label {
   border-radius: 10px;
 }
 
+.message {
+  background-color: #ffffff94;
+  margin: 30px 300px;
+  border-radius: 10px;
+  padding: 10px 10px;
+  text-align: center;
+}

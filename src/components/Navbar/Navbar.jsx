@@ -20,15 +20,17 @@ const Navbar = ({theme, setTheme}) => {
       <img src={theme == 'light' ? logo_light : logo_dark} alt="" className='logo'/>
 
       <ul>
-        <li>Home</li>
-        <li>Products</li>
-        <li>Features</li>
-        <li>About</li>
+        <li>CodeSphere</li>
       </ul>
 
       <div className='search-box'>
-        <input type="text" placeholder='Search'/>
-        <img src={theme == 'light' ? search_icon_light : search_icon_dark} alt="" />
+        <input id='inputValue' type="text" placeholder='Search'/>
+        <img onClick={()=> {
+          let inputValue = document.getElementById('inputValue').value
+          window.open(`https://developer.mozilla.org/en-US/${inputValue}`, '_blank')
+          }} 
+          src={theme == 'light' ? search_icon_light : search_icon_dark}
+          />
       </div>
 
       <img onClick={()=>{toggle_mode()}} src={theme == 'light' ? toggle_light : toggle_dark} alt="" className='toggle-icon'/>

@@ -3,9 +3,10 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #fff;
+    background: linear-gradient(to bottom right, #1c45e7, #ced8ff,);
     padding: 15px 7%;
     transition: 0.5s;
+    border-radius: 20px;
 }
 
 .logo {
@@ -22,8 +23,9 @@ ul {
 ul li {
     display: inline-block;
     margin: 10px 20px;
-    font-size: 18px;
+    font-size: 35px;
     cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .toggle-icon {
@@ -60,12 +62,15 @@ ul li {
 }
 
 .dark .navbar {
-    background: #000;
     color: #fff;
 }
 
 .dark .search-box {
     background: #fff;
+}
+
+.dark .search-box input::placeholder {
+    color: #222;
 }
 
 .dark .search-box input {

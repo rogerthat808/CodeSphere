@@ -16,6 +16,12 @@ const CodeEditor = () => {
   };
 
   return (
+    <>
+    <div className="message">
+      <p>
+      Hey, have you checked out Codesphere yet? 🚀 It's like the perfect code buddy for those diving into front-end development! 🌟 Super beginner-friendly, with a chill interface that won't overwhelm you. 🤓 Just the right vibe for coding fun without the fuss. Whether you're just starting or leveling up your front-end game, Codesphere's got your back! 💻✨ Happy coding!
+      </p>
+    </div>
     <div className="containerCode">
       <div className="left">
         <label>
@@ -40,6 +46,7 @@ const CodeEditor = () => {
         <iframe id="output"></iframe>
       </div>
     </div>
+    </>
   );
 };
 

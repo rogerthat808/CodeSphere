@@ -5,14 +5,22 @@
   font-family: sans-serif;
 }
 
-.container {
+.container.dark {
   width: 100vw;
-  background: linear-gradient(to bottom right, #1c45e7, #ced8ff, #1c45e7);
+  /* background: linear-gradient(to bottom right, #1c45e7, #ced8ff, #1c45e7); */
+  background-image: url('src/assets/background.jpeg');
+  background-size: cover;
+  background-position: center;
   transition: 0.5s;
 }
 
-.container.dark {
-  background: linear-gradient(to bottom right, #302f2f, #000);
+.container {
+  width: 100vw;
+  /* background: linear-gradient(to bottom right, #1c45e7, #ced8ff, #1c45e7); */
+  background-image: url('src/assets/background-light.jpeg');
+  background-size: cover;
+  background-position: center;
+  transition: 0.5s;
 }
 
 /*  */

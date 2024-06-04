@@ -1,4 +1,4 @@
-# CodeSphere Code Editor
+# CodeSphere 
 
 ![Screenshot 2024-06-04 at 4 34 25 PM](https://github.com/rogerthat808/CodeSphere/assets/113072854/f4d34a18-4e7b-460b-bbf0-9e71f6b2487a)
 

@@ -63,6 +63,28 @@ const CodeEditor = () => {
           <iframe id="output"></iframe>
         </div>
       </div>
+      <div className="rights">
+        {/* name */}
+        <ul id='myName'>@Rogelio Cruz</ul>
+        {/* email */}
+        <ul>
+          <a href="mailto:racruzmendez@gmail.com">
+            <img src="src/assets/gmail.png" id='gmail'/>
+          </a>
+        </ul>
+        {/* github */}
+        <ul>
+          <a href="https://github.com/rogerthat808">
+            <img src="src/assets/github.png" id='github'/>
+          </a>
+        </ul>
+        {/* linkedin */}
+        <ul>
+          <a href="https://www.linkedin.com/in/rogeliocruzmendez/">
+            <img src="src/assets/linkedin.png" id='linkedin'/>
+          </a>
+        </ul>
+      </div>
     </>
   );
 };

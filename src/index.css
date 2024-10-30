@@ -97,3 +97,27 @@ label {
   padding: 10px 10px;
   text-align: center;
 }
+/* Footer */
+.rights {
+  background-color: #4f5f76;
+  color: #e1e8f0;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  border: 2px solid #7b98c0;
+}
+
+/* Footer Icons*/
+#myName {
+  font-size: 25px;
+}
+#gmail {
+  height: 50px;
+}
+#github {
+  height: 50px;
+}
+#linkedin {
+  height: 50px;
+}

@@ -65,7 +65,7 @@ const CodeEditor = () => {
       </div>
       <div className="rights">
         {/* name */}
-        <ul id='myName'>@Rogelio Cruz</ul>
+        <ul id='myName'>@Rogelio Cruz Mendez</ul>
         {/* email */}
         <ul>
           <a href="mailto:racruzmendez@gmail.com">

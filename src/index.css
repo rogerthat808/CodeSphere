@@ -91,12 +91,20 @@ label {
 }
 
 .message {
-  background-color: #ffffff94;
-  margin: 30px 300px;
+  background-color: #ffffff7e;
+  margin: 30px 5%; /* Use percentage for margins */
   border-radius: 10px;
-  padding: 10px 10px;
+  padding: 10px; /* Simplified padding */
   text-align: center;
 }
+
+@media (max-width: 600px) { /* Media query for smaller screens */
+  .message {
+    margin: 20px 10px; /* Smaller margins for mobile */
+    padding: 15px; /* Increase padding if needed */
+  }
+}
+
 /* Footer */
 .rights {
   background-color: #4f5f76;

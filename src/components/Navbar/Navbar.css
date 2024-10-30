@@ -3,8 +3,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: linear-gradient(to bottom right, #1c45e7, #ced8ff,);
-    padding: 15px 7%;
+    padding: 10px 5%; /* Adjusted padding for smaller screens */
     transition: 0.5s;
     border-radius: 20px;
 }
@@ -22,24 +21,24 @@ ul {
 
 ul li {
     display: inline-block;
-    margin: 10px 20px;
-    font-size: 35px;
+    margin: 10px 15px; /* Reduced margin for smaller screens */
+    font-size: 2rem; /* Use rem for responsive font size */
     cursor: pointer;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: ;
+    color: #fff; /* Ensure text color is defined */
 }
 
 .toggle-icon {
     width: 50px;
     cursor: pointer;
-    margin-left: 40px;
+    margin-left: 20px; /* Reduced margin for smaller screens */
 }
 
 .search-box {
     display: flex;
     align-items: center;
     background: #2b4c6f;
-    padding: 10px 20px;
+    padding: 8px 15px; /* Adjusted padding for smaller screens */
     border-radius: 50px;
 }
 
@@ -49,8 +48,9 @@ ul li {
     border: 0;
     outline: 0;
     color: #fff;
-    font-size: 18px;
-    max-width: 200px;
+    font-size: 1rem; /* Use relative font size */
+    max-width: 150px; /* Reduced max-width for mobile */
+    width: 100%; /* Make input responsive */
 }
 
 .search-box input::placeholder {
@@ -77,3 +77,28 @@ ul li {
 .dark .search-box input {
     color: #222;
 }
+
+/* Media Queries for Smaller Screens */
+@media (max-width: 600px) {
+    .navbar {
+        flex-direction: column; /* Stack items vertically on mobile */
+        padding: 10px 5%; /* Maintain responsive padding */
+    }
+
+    ul li {
+        font-size: 1.5rem; /* Smaller font size for mobile */
+        margin: 5px; /* Adjust margins for mobile */
+    }
+
+    .toggle-icon {
+        margin-left: 0; /* Remove margin on mobile */
+    }
+
+    .search-box {
+        width: 100%; /* Make search box full width */
+        padding: 8px; /* Adjust padding */
+    }
+
+    .search-box input {
+        max-width: 100%; /* Allow
+    }
